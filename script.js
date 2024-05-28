@@ -1,9 +1,9 @@
 function firstWord(s) {
   // your code here
-	if(s === '' || !s.includes(' ')){
+	if(s === ' ' || !s.includes(' ')){
 		return s;
 	}else{
-		return s.substring(0,s.indexOf(''));
+		return s.substring(0, s.indexOf(' '));
 	}
 }
 
